@@ -1,0 +1,7 @@
+.search-box:hover .input-search {
+  width: 100%;
+}
+
+.search-box .input-search:not(:placeholder-shown) {
+  width: 100%;
+}

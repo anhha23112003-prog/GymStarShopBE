@@ -1,0 +1,17 @@
+.dropdown-manageruser .ant-dropdown-menu-item {
+  padding: 0 !important; /* Đặt padding cho thẻ <li> thành 0 */
+}
+
+.dropdown-manageruser .ant-dropdown-menu-item:hover {
+  background-color: #ebf8ff; /* Màu nền hover */
+  color: #1d4ed8; /* Màu chữ hover */
+}
+
+.dropdown-manageruser .ant-dropdown-open svg {
+  rotate: 180deg;
+  transition: all 0.3s;
+}
+
+.dropdown-manageruser .ant-dropdown-trigger svg {
+  transition: all 0.3s;
+}

@@ -1,0 +1,27 @@
+/* Tùy chỉnh màu chữ và nền cho Menu */
+.ant-menu-dark .ant-menu-item,
+.ant-menu-dark .ant-menu-item-group-title,
+.ant-menu-dark .ant-menu-item > a,
+.ant-menu-dark .ant-menu-item > span > a {
+  color: #ffffff; /* Màu chữ trắng */
+}
+
+
+
+/* Tùy chỉnh màu khi mục được chọn */
+.ant-menu-dark .ant-menu-item-selected {
+  color: #ffffff; /* Màu chữ trắng khi được chọn */
+  background-color: #969ba3 ; /* Màu nền xám khi được chọn */
+}
+
+/* Đảm bảo icon có màu trắng */
+.ant-menu-dark .ant-menu-item .anticon,
+.ant-menu-dark .ant-menu-submenu-title .anticon {
+  color: #ffffff; /* Màu icon trắng */
+}
+
+/* Đảm bảo nền của Menu đồng bộ với Sider */
+.ant-menu-dark {
+  background: #000000; /* Nền đen cho Menu */
+}
+
